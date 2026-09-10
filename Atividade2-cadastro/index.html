@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro usuário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <forms action="\enviar" class="cadastro">
+        <h2>Cadastro usuário</h2>
+        <div class="nome">
+            <label for="nome" >Nome Usuário:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        </div>
+
+        <div class="email">
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" placeholder="Digite o seu e-mail">
+        </div>
+
+        <div class="senha">
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" name="senha" placeholder="Digite a sua senha">
+        </div>
+
+        <div class="data">
+            <label for="data">Data de nascimento:</label><br>
+            <input type="date" id="data" name="data">
+        </div>
+
+        <div class="genero">
+            
+            <label for="genero">Gênero:</label><br>
+            <select name="genero" id="genero">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outros">Outros</option>
+                <option value="indefinido">Prefiro não dizer</option>
+            </select>
+        </div>
+        
+        <div class="termos">
+            <input type="checkbox" id="termos" name="termos">
+            <label for="termos"><b>Aceito os termos</b></label>
+            
+        </div>
+
+        <button type=submit class="botao">Cadastrar</button>
+       
+    
+    </forms>
+    
+</body>
+</html>

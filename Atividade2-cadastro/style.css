@@ -1,0 +1,48 @@
+
+body{
+    display: flex;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+h2{
+    color: yellow;
+}
+label{
+    display:block;
+    margin-top: 2rem;
+    font-style: oblique;
+    color: yellow;
+    
+}
+
+input{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.botao{
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+
+.cadastro{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding:170px;
+    background-color: rgb(192, 3, 3);  
+}
+
+.botao:hover{
+    background-color: rgb(185, 137, 221);
+}
+
+.termos{
+    color: yellow;
+}
